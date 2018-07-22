@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="Asset/Img/logoo.png">
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!-- End -->
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- End -->
+    <!-- Set your CSS file below -->
+    <link rel="stylesheet" href="Asset/CSS/style.css">
+    <link rel="stylesheet" href="Asset/CSS/fontawesome.css">
+    <link rel="stylesheet" href="Asset/CSS/flickity.min.css">
+    <!-- end -->
+    <!-- set your Js file below -->
+    <script src="Asset/JS/flickity.pkgd.min.js"></script>
+    <!-- end -->
+    <style>
+      .carousel-cell {
+        width: 50%; /* half-width */
+        height: auto;
+
+        margin-right: 10px;
+      }
+    </style>
+    <title>Unicraft | Beranda</title>
+</head>
+<body>
+    <div class="main-carousel">
+      <div class="carousel-cell">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card" style="width:100%;">
+              <img src="" alt="Accessoris" class="card-img-top">
+              <div class="card-body shadow p-3 mb-5 bg-white rounded">
+                  <h5 class="card-title">Lorem Ipsum</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea facere facilis atque voluptates officia provident, dolores doloremque obcaecati, inventore repudiandae neque quas dolorem, ducimus explicabo cumque odit ab soluta.</p>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card" style="width:100%;">
+              <img src="" alt="Accessoris" class="card-img-top">
+              <div class="card-body shadow p-3 mb-5 bg-white rounded">
+                  <h5 class="card-title">Lorem Ipsum</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea facere facilis atque voluptates officia provident, dolores doloremque obcaecati, inventore repudiandae neque quas dolorem, ducimus explicabo cumque odit ab soluta.</p>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card" style="width:100%;">
+              <img src="" alt="Accessoris" class="card-img-top">
+              <div class="card-body shadow p-3 mb-5 bg-white rounded">
+                  <h5 class="card-title">Lorem Ipsum</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea facere facilis atque voluptates officia provident, dolores doloremque obcaecati, inventore repudiandae neque quas dolorem, ducimus explicabo cumque odit ab soluta.</p>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function(){
+        $('.main-carousel').flickity({
+          // options
+          cellAlign: 'left',
+          contain: true
+        });
+      });
+    </script>
+</body>
+</html>
